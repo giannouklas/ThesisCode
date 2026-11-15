@@ -47,3 +47,23 @@ the notebooks and can be recreated by running them in order.
 | `o35_comparison_winter_daily.xlsx` | 35 | Winter |
 
 Each file contains the day-by-day comparison of the five methods.
+
+## How to run
+
+Run the notebooks in the following order.
+
+### Stage 1: Preprocessing (`preprocessing/`)
+1. `office_consumptions.ipynb`
+2. `office_temperatures.ipynb`
+3. `hvac_operation_flagging.ipynb`
+
+### Stage 2: Forecasting (`forecasting models/`)
+4. `f_models_o12.ipynb`
+5. `f_models_o35.ipynb`
+6. `f_models_comparison.ipynb`
+
+### Stage 3: Optimization (`optimization/`)
+7. `milp_objective_test_vol2.ipynb`
+8. `o12_comparison_summer_daily.ipynb`
+9. `o35_comparison_summer_daily.ipynb`
+10. `o35_comparison_winter_daily.ipynb`
